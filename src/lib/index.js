@@ -3,8 +3,8 @@ import alertPlugin from './Alert'
 import confirmPlugin from './Confirm'
 import actionSheetPlugin from './ActionSheet'
 
-export default {
-    install(Vue) {
+const plugin = {
+    install: function (Vue) {
         let popup = new (Vue.extend(popupPlugin));
         let alert = new (Vue.extend(alertPlugin));
         let confirm = new (Vue.extend(confirmPlugin));
@@ -52,4 +52,10 @@ export default {
             actionSheet.isShow = true;
         };
     }
+};
+
+if (typeof window !== 'undefined' && window.Vue) {
+    window.Vue.use(plugin);
 }
+
+export default plugin

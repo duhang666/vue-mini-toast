@@ -1,16 +1,20 @@
 # vue-mini-toast
-
-## Project setup
 ```
-npm install
+简单的vue的弹窗插件（pop/alert/confirm/actionSheet）
 ```
 
-### Compiles and hot-reloads for development
+## 安装
 ```
-npm run serve
+npm install vue-mini-toast -S
 ```
 
-### Compiles and minifies for production
+## 组件中使用
+####pop
 ```
-npm run build
+this.$pop(option);
 ```
+#####option [Object]
+|msg|align|theme|
+|:-------:|:-------------:|:----------:|
+|   居中   |     左对齐    |   右对齐   |
+|=========|===============|============|

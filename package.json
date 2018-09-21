@@ -1,17 +1,30 @@
 {
-  "name": "vue-mini-toast",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
-  },
-  "dependencies": {
-    "vue": "^2.5.17"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.0",
-    "@vue/cli-service": "^3.0.0",
-    "vue-template-compiler": "^2.5.17"
-  }
+    "name": "vue-mini-toast",
+    "author": "duhang",
+    "version": "0.1.6",
+    "description": "A popup/alert plugin for Vue",
+    "license": "MIT",
+    "private": false,
+    "main": "dist/vue-mini-toast.common.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/duhang666/vue-mini-toast"
+    },
+    "keywords": [
+        "vue",
+        "toast"
+    ],
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build --target lib --name vue-mini-toast src/lib/index.js"
+    },
+    "dependencies": {
+        "vue": "^2.5.17",
+        "vue-mini-toast": "^0.1.6"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^3.0.0",
+        "@vue/cli-service": "^3.0.0",
+        "vue-template-compiler": "^2.5.17"
+    }
 }
