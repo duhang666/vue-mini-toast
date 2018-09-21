@@ -1,7 +1,7 @@
 {
     "name": "vue-mini-toast",
     "author": "duhang",
-    "version": "0.1.6",
+    "version": "1.0.1",
     "description": "A popup/alert plugin for Vue",
     "license": "MIT",
     "private": false,
@@ -10,6 +10,7 @@
         "type": "git",
         "url": "https://github.com/duhang666/vue-mini-toast"
     },
+    "homepage": "https://www.doinblog.com",
     "keywords": [
         "vue",
         "toast"
@@ -19,8 +20,7 @@
         "build": "vue-cli-service build --target lib --name vue-mini-toast src/lib/index.js"
     },
     "dependencies": {
-        "vue": "^2.5.17",
-        "vue-mini-toast": "^0.1.6"
+        "vue": "^2.5.17"
     },
     "devDependencies": {
         "@vue/cli-plugin-babel": "^3.0.0",
