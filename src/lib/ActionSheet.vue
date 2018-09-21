@@ -30,7 +30,7 @@
             }
         },
         methods: {
-            callback(index) {
+            callback(item, index) {
 
             }
         }
